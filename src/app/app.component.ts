@@ -14,4 +14,7 @@ export class AppComponent {
     this.listCitas.push(cita)
     console.log(this.listCitas)
   }
+  eliminarCi(i:number){
+    this.listCitas.splice(i,1)
+  }
 }
