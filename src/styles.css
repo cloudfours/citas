@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.tituloClass{
+    font-family: 'Nerko One', cursive;
+    color:white;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./assets/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
